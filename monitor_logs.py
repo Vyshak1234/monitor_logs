@@ -6,6 +6,7 @@ import pandas as pd
 import shutil
 from openpyxl import load_workbook
 from openpyxl.styles import Color, PatternFill, Font, Alignment
+from collections import Counter
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)  # Set the root logger level to DEBUG
